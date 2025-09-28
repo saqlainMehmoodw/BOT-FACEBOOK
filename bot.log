@@ -1,0 +1,66 @@
+2025-09-28 13:11:55,891 - INFO - Database setup completed
+2025-09-28 13:11:58,105 - INFO - Driver initialized successfully
+2025-09-28 13:11:58,122 - INFO - Logging into Facebook...
+2025-09-28 13:12:13,981 - INFO - Login successful!
+2025-09-28 13:12:20,440 - INFO - Navigated to marketplace
+2025-09-28 13:12:20,445 - ERROR - Error getting listings: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6de941eb5+80197]
+	GetHandleVerifier [0x0x7ff6de941f10+80288]
+	(No symbol) [0x0x7ff6de6c02fa]
+	(No symbol) [0x0x7ff6de6ac0a5]
+	(No symbol) [0x0x7ff6de6d144a]
+	(No symbol) [0x0x7ff6de747be6]
+	(No symbol) [0x0x7ff6de768132]
+	(No symbol) [0x0x7ff6de740153]
+	(No symbol) [0x0x7ff6de708b02]
+	(No symbol) [0x0x7ff6de7098d3]
+	GetHandleVerifier [0x0x7ff6debfe83d+2949837]
+	GetHandleVerifier [0x0x7ff6debf8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6dec186c7+3055959]
+	GetHandleVerifier [0x0x7ff6de95cfee+191102]
+	GetHandleVerifier [0x0x7ff6de9650af+224063]
+	GetHandleVerifier [0x0x7ff6de94af64+117236]
+	GetHandleVerifier [0x0x7ff6de94b119+117673]
+	GetHandleVerifier [0x0x7ff6de9310a8+11064]
+	BaseThreadInitThunk [0x0x7ffcf1617374+20]
+	RtlUserThreadStart [0x0x7ffcf265cc91+33]
+
+2025-09-28 13:12:20,478 - INFO - No listings found
+2025-09-28 13:12:23,029 - INFO - Browser closed
+2025-09-28 14:01:12,472 - INFO - Database setup completed
+2025-09-28 14:01:12,473 - INFO - 🚀 Starting Facebook Marketplace Bot...
+2025-09-28 14:01:14,597 - INFO - ✅ Driver initialized successfully
+2025-09-28 14:01:14,598 - INFO - 🔐 Logging into Facebook...
+2025-09-28 14:01:30,577 - WARNING - ⚠️ Login status unclear
+2025-09-28 14:01:30,813 - INFO - ✅ Email entered
+2025-09-28 14:01:33,686 - INFO - ✅ Password entered
+2025-09-28 14:01:35,901 - INFO - ✅ Login button clicked
+2025-09-28 14:01:47,660 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/964ed27585187d7bad5ff22145d1782b
+2025-09-28 14:01:51,764 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002742CC80410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/964ed27585187d7bad5ff22145d1782b
+2025-09-28 14:01:55,826 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002742CC80690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/964ed27585187d7bad5ff22145d1782b
+2025-09-28 14:01:59,911 - INFO - ✅ Browser closed properly
+2025-09-28 14:02:54,590 - INFO - Database setup completed
+2025-09-28 14:02:54,591 - INFO - 🚀 Starting Facebook Marketplace Bot...
+2025-09-28 14:02:56,787 - INFO - ✅ Driver initialized successfully
+2025-09-28 14:02:56,792 - INFO - 🔐 Logging into Facebook...
+2025-09-28 14:03:12,457 - WARNING - ⚠️ Login status unclear
+2025-09-28 14:03:12,706 - INFO - ✅ Email entered
+2025-09-28 14:03:14,976 - INFO - ✅ Password entered
+2025-09-28 14:03:17,139 - INFO - ✅ Login button clicked
+2025-09-28 14:03:30,250 - WARNING - ⚠️ Login status unclear
+2025-09-28 14:03:30,251 - ERROR - ❌ Login failed - could not verify success
+2025-09-28 14:03:30,251 - ERROR - ❌ Bot stopped - login failed
+2025-09-28 14:03:33,267 - INFO - ✅ Browser closed properly
+2025-09-28 14:20:11,572 - INFO - ✅ Database setup completed
+2025-09-28 14:20:15,658 - ERROR - PHP connection error: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /facebook_bot/api.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B936186510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-28 14:20:22,355 - ERROR - PHP connection error: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /facebook_bot/api.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9361E8F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-28 14:20:26,441 - ERROR - PHP connection error: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /facebook_bot/api.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9360EBE10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-28 14:20:47,440 - ERROR - PHP connection error: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /facebook_bot/api.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B936200510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-28 14:20:51,539 - ERROR - PHP connection error: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /facebook_bot/api.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B93613F2F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-28 14:21:15,987 - ERROR - PHP connection error: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /facebook_bot/api.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B93611BAC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-28 14:21:20,055 - ERROR - PHP connection error: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /facebook_bot/api.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9361F86B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-28 14:21:24,137 - ERROR - PHP connection error: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /facebook_bot/api.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B9361F8160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-28 14:21:30,837 - ERROR - PHP connection error: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /facebook_bot/api.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B93611B8A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))

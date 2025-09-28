@@ -1,0 +1,45 @@
+2025-09-28 11:53:17,297 - FacebookScraper - ERROR - Failed to initialize WebDriver: Message: javascript error: missing ) after argument list
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68d6f1eb5+80197]
+	GetHandleVerifier [0x0x7ff68d6f1f10+80288]
+	(No symbol) [0x0x7ff68d4702fa]
+	(No symbol) [0x0x7ff68d477e5a]
+	(No symbol) [0x0x7ff68d47b2b1]
+	(No symbol) [0x0x7ff68d519b7b]
+	(No symbol) [0x0x7ff68d4f037a]
+	(No symbol) [0x0x7ff68d5187fb]
+	(No symbol) [0x0x7ff68d4f0153]
+	(No symbol) [0x0x7ff68d4b8b02]
+	(No symbol) [0x0x7ff68d4b98d3]
+	GetHandleVerifier [0x0x7ff68d9ae83d+2949837]
+	GetHandleVerifier [0x0x7ff68d9a8c6a+2926330]
+	GetHandleVerifier [0x0x7ff68d9c86c7+3055959]
+	GetHandleVerifier [0x0x7ff68d70cfee+191102]
+	GetHandleVerifier [0x0x7ff68d7150af+224063]
+	GetHandleVerifier [0x0x7ff68d6faf64+117236]
+	GetHandleVerifier [0x0x7ff68d6fb119+117673]
+	GetHandleVerifier [0x0x7ff68d6e10a8+11064]
+	BaseThreadInitThunk [0x0x7ffcf1617374+20]
+	RtlUserThreadStart [0x0x7ffcf265cc91+33]
+
+2025-09-28 12:19:50,851 - FacebookScraper - INFO - WebDriver initialized successfully
+2025-09-28 12:19:50,923 - FacebookScraper - INFO - Logging into Facebook...
+2025-09-28 12:19:59,684 - FacebookScraper - INFO - Navigated to: https://www.facebook.com
+2025-09-28 12:20:12,043 - FacebookScraper - ERROR - Login failed or checkpoint required
+2025-09-28 12:20:16,052 - FacebookScraper - INFO - Browser closed
+2025-09-28 12:25:24,476 - FacebookScraper - INFO - WebDriver initialized successfully
+2025-09-28 12:25:24,477 - FacebookScraper - INFO - Logging into Facebook...
+2025-09-28 12:25:30,082 - FacebookScraper - INFO - Navigated to: https://www.facebook.com
+2025-09-28 12:25:41,418 - FacebookScraper - ERROR - Login failed or checkpoint required
+2025-09-28 12:25:44,180 - FacebookScraper - INFO - Browser closed
+2025-09-28 12:26:19,464 - FacebookScraper - INFO - WebDriver initialized successfully
+2025-09-28 12:26:19,464 - FacebookScraper - INFO - WebDriver initialized successfully
+2025-09-28 12:26:19,465 - FacebookScraper - INFO - Logging into Facebook...
+2025-09-28 12:26:19,465 - FacebookScraper - INFO - Logging into Facebook...
+2025-09-28 12:26:24,689 - FacebookScraper - INFO - Navigated to: https://www.facebook.com
+2025-09-28 12:26:24,689 - FacebookScraper - INFO - Navigated to: https://www.facebook.com
+2025-09-28 12:26:35,192 - FacebookScraper - ERROR - Login failed or checkpoint required
+2025-09-28 12:26:35,192 - FacebookScraper - ERROR - Login failed or checkpoint required
+2025-09-28 12:26:37,772 - FacebookScraper - INFO - Browser closed
+2025-09-28 12:26:37,772 - FacebookScraper - INFO - Browser closed

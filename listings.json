@@ -1,0 +1,32 @@
+{
+  "vehicle": [
+    {
+      "Photos Folder": "/path/to/vehicle/images",
+      "Photos Names": "image1.jpg;image2.jpg",
+      "Vehicle Type": "Car",
+      "Year": "2022",
+      "Make": "Honda",
+      "Model": "Civic",
+      "Mileage": "15000",
+      "Fuel Type": "Petrol",
+      "Price": "20000",
+      "Description": "Brand new Honda Civic for sale",
+      "Location": "Chicago, IL",
+      "Groups": "Car Marketplace;Auto Sales"
+    }
+  ],
+  "item": [
+    {
+      "Photos Folder": "/path/to/item/images",
+      "Photos Names": "product1.jpg;product2.jpg",
+      "Title": "MacBook Pro",
+      "Category": "Electronics",
+      "Condition": "Excellent",
+      "Brand": "Apple",
+      "Price": "1200",
+      "Description": "MacBook Pro in excellent condition",
+      "Location": "San Francisco, CA",
+      "Groups": "Tech Sale;Electronics Market"
+    }
+  ]
+}
